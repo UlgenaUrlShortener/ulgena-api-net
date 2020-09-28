@@ -1,0 +1,26 @@
+﻿<div class="content">
+    <h3>Link Create</h3>
+
+    <h4>Api End Point</h4>
+    <p>https://api.ulgena.com/link/create</p>
+
+    <h4>Method</h4>
+    <p>POST</p>
+
+    <form method="post" action="@Url.Action("LinkListPost", "Home")">
+        <br>
+        Api Key:
+        <br>
+        <input type="text" name="apiKey" value="YOUR_API_KEY">
+        <br><br>
+ 
+        <button type="submit">Create Link</button>
+        <br><br>
+
+        <strong>Result:</strong>
+        <br>
+        <pre id="json">
+            @ViewData["link_result"]
+        </pre>
+    </form>
+</div>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ulgena.Web.Sample", "Ulgena.Web.Sample\Ulgena.Web.Sample.csproj", "{BE12088E-A23F-499F-9C96-DE74F45443EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE12088E-A23F-499F-9C96-DE74F45443EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE12088E-A23F-499F-9C96-DE74F45443EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE12088E-A23F-499F-9C96-DE74F45443EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE12088E-A23F-499F-9C96-DE74F45443EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68823BA8-3E1A-4A03-9108-4519DC506301}
+	EndGlobalSection
+EndGlobal

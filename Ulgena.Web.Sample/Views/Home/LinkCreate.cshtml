@@ -1,0 +1,47 @@
+﻿<div class="content">
+    <h3>Link Create</h3>
+
+    <h4>Api End Point</h4>
+    <p>https://api.ulgena.com/link/create</p>
+
+    <h4>Method</h4>
+    <p>POST</p>
+
+    <form method="post" action="@Url.Action("LinkCreatePost", "Home")">
+        <br>
+        Api Key:
+        <br>
+        <input type="text" name="apiKey" value="YOUR_API_KEY">
+        <br><br>
+
+        Title <small>(Optional)</small>:
+        <br>
+        <input type="text" name="apiTitle" value="Awesome Ulgena!">
+        <br><br>
+
+        Strategy:
+        <br>
+        <select name="apiStrategy">
+            <option value="1">Shortest</option>
+            <option value="2">Random</option>
+            <option value="3">Suggested</option>
+            <option value="4">Suggested with dash (SEO friendly)</option>
+            <option value="5">Suggested camel case</option>
+        </select>
+        <br><br>
+
+        Destination:
+        <br>
+        <input type="text" name="apiDestination" value="https://www.youtube.com/watch?v=7jpbORl55x8">
+        <br><br>
+        <button type="submit">Create Link</button>
+        <br><br>
+
+        <strong>Result:</strong>
+        <br>
+        <pre id="json">
+            @ViewData["link_result"]
+        </pre>
+    </form>
+</div>
+
