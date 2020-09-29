@@ -99,8 +99,8 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
-    <Reference Include="UlgenaAPI, Version=1.53.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\UlgenaAPI.1.53.0\lib\net45\UlgenaAPI.dll</HintPath>
+    <Reference Include="UlgenaAPI, Version=1.54.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlgenaAPI.1.54.0\lib\net45\UlgenaAPI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
